@@ -11,10 +11,10 @@ const createWindow = () => {
     },
   });
 
-  win.loadFile("index.html");
+  win.loadFile("./src/View/index.html");
 
-  // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  // Open the DevTools initially
+  win.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {

@@ -11,5 +11,9 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^28.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "sqlite3": "^5.1.7"
   }
 }
